@@ -7,7 +7,7 @@ import streamlit as st
 sns.set(style='dark')
 
 # Menyiapkan data
-data = pd.read_csv('data.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/thzkia/proyek-analisis-data/main/data.csv')
 
 # Menyiapkan daily_rent_df
 def create_daily_rent_df(df):
